@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.c0de_h0ng.myapplication.MainActivity">
+
+    <EditText
+        android:id="@+id/imei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="IMEI 입력"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/va0btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VA0 생성"
+            android:textSize="15dp"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/va4btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VA4 생성"
+            android:textSize="15dp"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/vb0btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VB0 생성"
+            android:textSize="15dp"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/vc0btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VC0 생성"
+            android:textSize="15dp"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/VA0"
+        android:text="VA0"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/VA4"
+        android:text="VA4"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/VB0"
+        android:text="VB0"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/VC0"
+        android:text="VC0"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/getva0btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VA0 가져오기"
+            android:textSize="15dp"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/getva4btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VA4 가져오기"
+            android:textSize="15dp"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/getvb0btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VB0 가져오기"
+            android:textSize="15dp"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/getvc0btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VC0 가져오기"
+            android:textSize="15dp"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/get"
+        android:text="검증리스트 출력"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
